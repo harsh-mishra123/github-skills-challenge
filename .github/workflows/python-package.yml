@@ -8,6 +8,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src:.
     strategy:
       fail-fast: false
       matrix:
